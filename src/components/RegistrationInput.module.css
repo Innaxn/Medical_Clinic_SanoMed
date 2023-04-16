@@ -1,0 +1,40 @@
+.registrationInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+}
+
+.contInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inputCreation{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.labelcreation{
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.inputCreation:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+.inputCreation:invalid[focused="true"] ~ span{
+    display: block;
+}

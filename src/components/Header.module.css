@@ -1,0 +1,11 @@
+.container{
+    background-color: #f8f8ff ;
+    display:flex;
+    justify-content: space-between;
+}
+
+.timeslots{
+    padding:15px;
+    margin:15px;
+    list-style:none;
+}

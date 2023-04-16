@@ -1,0 +1,66 @@
+Timeslots
+.tswrapper {
+	border-radius: 4px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.tswrapper:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.timeslot {
+	box-sizing: border-box;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ABCCF3;
+  	background: #fff;
+  	overflow: hidden;
+	border-radius: 4px;
+	z-index: 80;
+	
+}
+
+#best {
+  border-color: #8DD4F5;
+}
+
+#best:hover {
+  	background: #edfdff;
+	border-color: #8DD4F5;
+}
+
+
+.tswrapper {
+  position: relative;
+  float: left;
+  margin-right: 16px;
+}
+
+.tsheadline {
+	font-family: Arial, sans-serif;
+	margin-bottom: 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.radiobox {
+  margin-left: 16px;
+  margin-top: 26px;
+  height: 100%;
+}
+.infobox {
+  height: 100%;
+  width: 72%;
+  float: left;
+}
+
+.tstext {
+	font-family: Arial, sans-serif;
+	color: #4a4a4a;
+	font-size: 13px;
+}
+
+.tstime {
+	font-weight: bold;
+  	font-size: 16px;
+}

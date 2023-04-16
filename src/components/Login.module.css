@@ -1,0 +1,55 @@
+.formL{
+      background-color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;  
+      width: auto;
+}
+.buttonL{
+    width: 280px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color:  #8DD4F5;;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.inputLogin{
+    width: 280px;
+    margin: 5px 0;
+}
+b{
+    margin-top: 10px;
+}
+.labelLogin{
+    font-size: 14px;
+    color: black;
+}
+.contInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+.container{
+    border-radius: 10px;
+    border: 1px solid rgb(141,212,245,0.6);
+    box-shadow: 5px 10px rgb(141,212,245,0.6);
+    width: 450px;
+    height: auto;
+    margin: 40px 20px;
+}
+
+.hOne{
+    color: rgb(77, 1, 77);
+    text-align: center;
+}
+.span{
+    color:red
+}

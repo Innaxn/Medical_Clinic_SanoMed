@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .formR{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;      
+
+  }
+  .formInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .hOne{
+      color: rgb(77, 1, 77);
+      text-align: center;
+  }
+  
+  .buttonregistration{
+      width: 350px;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color:  #8DD4F5;;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 25px;
+      margin-bottom: 30px;
+  }

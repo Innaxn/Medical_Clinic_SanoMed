@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-areas: " img name";
+    background-color: #F0FFFF;
+    margin:30px 30px;
+}
+
+.Names {
+    grid-area: name;
+    margin: 30px 30px;
+
+}
+
+.img img{
+    margin: 50px 50px;
+    height: 130;
+    grid-area: img;
+    -webkit-box-shadow: -15px -15px 0px 5px #8DD4F5;
+    box-shadow: -15px -15px 0px 5px #8DD4F5;
+}
+
+.buttonAboutPage {
+    background-color: #8DD4F5;
+	background-color:#8DD4F5;
+	border-radius:11px;
+	border:2px solid #8DD4F5;
+	color:#F0FFFF;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+
+}
+.buttonAboutPage:hover {
+	background-color:#4682b4 ;
+}
